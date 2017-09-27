@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="lsp_calc" Class="helpDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=wbase2.database.windows.net;Initial Catalog=lsp_calc;Persist Security Info=True;User ID=robbk13" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="lsp_calcConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Content" Member="Contents">
+    <Type Name="Content">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PageName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PageType" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Heading1" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Block" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Seq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Other" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="ContentGroup" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ContentSubGroup" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ImageURL" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ImageHeight" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ImageWidth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="mortality">
+  <DataContextMoniker Name="/mortalityDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0870f324-c689-409a-9d55-cd068e18ed8a" absoluteBounds="2.375, 2.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/mortalityDataContext/MortabilitySearchable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fbfc9964-f8a6-47ca-9acc-af54a78e52b8" absoluteBounds="2.39, 2.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
